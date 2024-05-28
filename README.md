@@ -14,7 +14,12 @@ This page has 2 fields where the user enters the <i>username</i> and <i>password
 <img src="https://github.com/RanwaKhaled/Railway-Ticketing-System/assets/77844198/17d0f9c5-1c74-47d8-99bb-883b3725d344" width=500><br>
 In this page the user enters all the required information which are then written in the excel sheet for the clients, and after they're done, they are transported back to the log in page to access their account.
 <h3>3- User Account Page</h3>
-<img src="https://github.com/RanwaKhaled/Railway-Ticketing-System/assets/77844198/bc02096b-b333-45a0-949f-4fc677bef329" width=500>
+<img src="https://github.com/RanwaKhaled/Railway-Ticketing-System/assets/77844198/bc02096b-b333-45a0-949f-4fc677bef329" width=500><br>
 The user data and client status <b>(Regular or Golden)</b> is fetched from the database and displayed in the user account page, the user also finds a table containing the information about upcoming journeys so they can book their tickets <br>
 <img src="https://github.com/RanwaKhaled/Railway-Ticketing-System/assets/77844198/6ed2964f-e3a5-46cf-8617-f76d32ed7c52" width=500><br>
-
+When the user click on `purchase the ticket` button, a QR code is generated and saved to the specified directory containing the details of the ticket so it can be scanned at the station
+<br>
+<h2>Downloading and using the app</h2>
+- download the code files and load them in a new java application project (or copy the code directly) <br>
+- load the JAR files into your projects before running <br>
+- change the path of the files for the QR code folder and the excel file
